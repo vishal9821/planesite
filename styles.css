@@ -1,0 +1,97 @@
+body{
+ background-color: skyblue;
+ width:1000px;
+ align-items: center;
+}
+.first{
+    width: 200px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 40%;
+    position:absolute;
+    margin-left:500px;
+    margin-top:200px;
+   }
+  .second{
+    height:0;
+    width:0;
+    border:100px solid transparent;
+    border-right: 100px solid grey;
+    border-bottom: 100px solid grey;
+    position:absolute;
+    margin-top:380px;
+    margin-left:305px;
+  }
+  .third{
+    height:0;
+    width:0;
+    border:100px solid transparent;
+    border-left:100px solid grey;
+    border-bottom:100px solid grey;
+    position:absolute;
+    margin-top:380px;
+    margin-left:697px;
+  }
+  .forth{
+
+    height:0;
+    width:0;
+    border:100px solid transparent;
+    border-bottom:200px solid grey;
+    border-radius:70%;
+    border-top-width:0;
+    position:absolute;
+    margin-top:120px;
+    margin-left:500px;
+    
+  }
+  .fifth{
+    height:0;
+    width:0;
+    border:100px solid transparent;
+    border-bottom:100px solid grey;
+    border-radius:10%;
+    border-top-width:0;
+    position:absolute;
+    margin-top:770px;
+    margin-left:501px;
+    
+  }
+  .sixth{
+    background-color: grey;
+    height:100px;
+    width:50px;
+    border-radius:70%;
+    position:absolute;
+    margin-top:422px;
+    margin-left:384px;
+    
+  }
+  .seventh{
+    background-color: grey;
+    height:100px;
+    width:50px;
+    border-radius:70%;
+    position:absolute;
+    margin-top:410px;
+    margin-left:752px;
+  }
+  .cloud{
+   position:fixed;
+   width: 100px;
+   height: 100px;
+  }
+  .eight{
+    width: 118px;
+    height: 467px;
+    border: 15px dotted white;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 524px;
+    border-radius: 70px;
+    border-top: transparent;
+    border-bottom-color: grey;
+  }
+  .eight:hover{
+    border-color: aqua;
+  }
